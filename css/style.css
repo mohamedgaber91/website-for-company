@@ -302,7 +302,7 @@ padding-bottom: 200px;
 
 
 .servicesheading p{
-    margin-top: 122px
+    margin-top: 89px
 }
 .services .servicescontent{
     display: grid;
@@ -408,7 +408,7 @@ text-align: center
 
 .testimonials h2{
     margin-left: 49px;
-    margin-bottom:59px;
+    margin-bottom:20px;
 }
 .testimonials p{
     padding: 20px;
@@ -537,8 +537,8 @@ text-align: center
 
 
 .about h2{
-    margin-left: 59px;
-    margin-bottom: 59px;
+    margin-left: 36px;
+    margin-bottom: 37px;
 }
 .about p{
     font-size: 25px;
@@ -755,7 +755,7 @@ cursor: pointer;
         gap: 22px;
     }
     .our-navbar .logo img{
-        width: 127px;
+        width: 100px;
     }
     .about .abocontent{
         display: block;
