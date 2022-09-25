@@ -1,0 +1,141 @@
+    
+
+
+.manheading{
+    text-align: center;
+    margin-top: 141px;
+   
+}
+.manheading h2{
+    margin-left: 54px;
+    font-size: 25px;
+}
+.manheading p{
+    padding: 40px;
+    line-height: 40px;
+    margin-left: 227px;
+    margin-right: 227px;
+    font-size: 22px;
+    word-spacing: 1.2px;
+    color: #0000008a;
+}
+.mancontent{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(291px,1fr));
+    gap: 40px;
+    margin-top: 100px;
+}
+.mancontent .man1,.mancontent .man3{
+    text-align: end;
+}
+
+
+
+
+
+.mancontent .man1 .card1,.mancontent .man3 .card1,.mancontent .man1 .card2,.mancontent .man3 .card2{
+    padding-left: 30px;
+}
+.mancontent .man1 .card1 h3,.mancontent .man3 .card1 h3,.mancontent .man1 .card2 h3,.mancontent .man3 .card2 h3{
+    font-size: 25px;
+    transform: translateX(-96px);
+    color: #00000099;
+    font-family: cursive;
+}
+.mancontent .man1 .card1 p,.mancontent .man3 .card1 p,.mancontent .man1 .card2 p,.mancontent .man3 .card2 p{
+    font-size: 25px;
+    color: #00000094;
+    transform: translateY(-35px);
+}
+.mancontent .man1 .card1 i,.mancontent .man3 .card1 i,.mancontent .man1 .card2 i,.mancontent .man3 .card2 i{
+    font-size: 25px;
+    color: white;
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: 50%;
+   
+    transform: translateY(-71px);
+}
+.mancontent .man2{
+
+}
+.mancontent .man2 img{
+    width: 100%;
+    margin-top: 103px;
+}
+
+/* *******************************************************          media query */
+/* mobile */
+@media (max-width:500px) {
+    .mancontent{
+        display:block;
+        margin-top:200px;
+    }
+    .manheading p{
+        margin-left:2px;
+        margin-right:2px;
+    }
+    .mancontent .man1,.mancontent .man2,.mancontent .man3,.mancontent .man4{
+        text-align:center;
+    }
+    .mancontent .man1 .card1, .mancontent .man1 .card2 ,
+    .mancontent .man2 .card1 , .mancontent .man2 .card2 ,
+    .mancontent .man3 .card1 , .mancontent .man3 .card2 {
+        padding-left: 30px;
+        margin-top: 149px;
+    }
+    .mancontent .man1 .card1 h3, .mancontent .man1 .card2 h3,
+    .mancontent .man2 .card1 h3, .mancontent .man2 .card2 h3,
+    .mancontent .man3 .card1 h3, .mancontent .man3 .card2 h3{
+        transform: translateX(0px);
+        margin: 0px;
+    }
+    .mancontent .man1 .card1 i, .mancontent .man1 .card2 i,
+    .mancontent .man2 .card1 i, .mancontent .man2 .card2 i,
+    .mancontent .man3 .card1 i, .mancontent .man3 .card2 i{
+        transform: translateY(-129px);
+    }
+    
+    
+    
+}
+/* tap */
+@media (min-width:501px) and (max-width:992px) {
+    .mancontent{
+        display:block;
+        margin-top:200px;
+    }
+    .manheading p{
+        margin-left:2px;
+        margin-right:2px;
+    }
+    .mancontent .man1,.mancontent .man2,.mancontent .man3,.mancontent .man4{
+        text-align:center;
+    }
+    .mancontent .man1 .card1, .mancontent .man1 .card2 ,
+    .mancontent .man2 .card1 , .mancontent .man2 .card2 ,
+    .mancontent .man3 .card1 , .mancontent .man3 .card2 {
+        padding-left: 30px;
+        margin-top: 149px;
+    }
+    .mancontent .man1 .card1 h3, .mancontent .man1 .card2 h3,
+    .mancontent .man2 .card1 h3, .mancontent .man2 .card2 h3,
+    .mancontent .man3 .card1 h3, .mancontent .man3 .card2 h3{
+        transform: translateX(0px);
+        margin: 0px;
+    }
+    .mancontent .man1 .card1 i, .mancontent .man1 .card2 i,
+    .mancontent .man2 .card1 i, .mancontent .man2 .card2 i,
+    .mancontent .man3 .card1 i, .mancontent .man3 .card2 i{
+        transform: translateY(-129px);
+    }
+    
+    
+ 
+}
+
+/*lap  */
+@media (min-width:993px) and (max-width:1500px) {
+   
+}
+

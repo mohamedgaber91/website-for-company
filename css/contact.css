@@ -1,0 +1,170 @@
+.contact{
+    text-align: center;
+    margin-top: 144px;
+    padding-bottom: 12px;
+    
+}
+.contact .conheading{
+
+}
+
+
+
+.contact h2{
+    margin-left: 59px;
+    margin-bottom: 55px;
+}
+.contact p{
+    font-size: 25px;
+    color: #00000085;
+}
+.contact .concontent{
+    
+    margin-top: 96px;
+}
+.contact .concontent .left{
+
+}
+.contact .concontent .left img{
+   
+    margin-top: -11px;
+   
+    animation: forimge2 0.5s cubic-bezier(0, 0, 0.71, 0.74) infinite alternate;
+}
+
+
+.contact .concontent  h4{
+    margin-right: -13px;
+    margin-top: 55px;
+    color: #0000009c;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact .concontent  ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top:80px;
+}
+.contact .concontent ul li{
+    list-style: none;
+    padding-right: 33px;
+}
+.contact .concontent  ul li a{
+text-decoration: none;
+}
+.contact .concontent  ul li a i{
+    background-color: var(--main-color);
+    color: white;
+    padding: 20px;
+    font-size: 27px;
+    cursor: pointer;
+}
+.contact .concontent  ul li a i:hover{
+    color: var(--main-color);
+    background-color: white;
+    border: 1px solid var(--main-color);
+}
+
+
+.contact button{
+    padding: 10px;
+    background-color: var(--main-color);
+    border: none;
+    font-size: 25px;
+    margin: 59px;
+    border-radius: 10px;
+}
+.contact button a{
+color: white;
+text-decoration:none;
+}
+.contact button:hover{
+    background-color: #093f8f;
+    cursor: pointer;
+}
+.message{
+    text-align: center;
+    margin-top: 144px;
+    padding-bottom: 12px;
+    
+}
+.message .messheading{
+
+  
+}
+
+
+
+.messheading h2{
+    margin-left: 59px;
+    margin-bottom: 55px;
+}
+.messheading p{
+    font-size: 25px;
+    color: #00000085;
+}
+.message .messcontent{
+
+}
+.message .messcontent .form{
+    margin-top: 125px;
+    color: white;
+    margin-bottom: 85px;
+}
+.message .messcontent .form input[type="text"]{
+    width: 40%;
+    height: 65px;
+    direction: rtl;
+    padding-right: 30px;
+    font-size: 20px;
+    border: 1px solid #00000026;
+
+}
+.message .messcontent .form input[type="email"]{
+    width: 40%;
+    height: 65px;
+    direction: rtl;
+    padding-right: 30px;
+    font-size: 20px;
+    border: 1px solid #00000026;
+    margin-right: 20px;
+
+}
+.message .messcontent .form #title{
+    width: 82%;
+    height: 65px;
+    direction: rtl;
+    padding-right: 30px;
+    font-size: 20px;
+    border: 1px solid #00000026;
+    margin-top: 40px;
+
+}
+.message .messcontent .form textarea{
+    width: 82%;
+    direction: rtl;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+    border: 1px solid #00000026;
+    margin-top: 40px;
+}
+.message .messcontent .form input[type="submit"]{
+    width: 82%;
+    height: 65px;
+    direction: rtl;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 1px solid #00000026;
+    background-color: var(--main-color);
+    margin-top: 40px;
+    color: white;
+    transition: 0.5s;
+}
+.message .messcontent .form input[type="submit"]:hover{
+    background-color: white;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+}
