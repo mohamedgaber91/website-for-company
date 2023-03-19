@@ -26,7 +26,7 @@
 
 }
 .contact .concontent .left img{
-   
+    width: 306px;
     margin-top: -11px;
    
     animation: forimge2 0.5s cubic-bezier(0, 0, 0.71, 0.74) infinite alternate;

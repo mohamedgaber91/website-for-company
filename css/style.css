@@ -295,7 +295,7 @@ padding-bottom: 200px;
 }
 .services .servicescontent{
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(251px,1fr));
+    grid-template-columns:repeat(auto-fill,minmax(331px,1fr)) ;   
     margin-top: 102px;
     gap: 23px;
 }
@@ -307,7 +307,7 @@ padding-bottom: 200px;
     position: relative;
    
     padding-bottom: 30px;
-    
+    margin-bottom: 40px;
     border-radius: 20px;
 }
 .services .servicescontent .ser2,.services .servicescontent .ser3{
@@ -317,6 +317,7 @@ padding-bottom: 200px;
     position: relative;
     height: 650px;
     border-radius: 20px;
+    margin-bottom: 40px;
    
 }
 
@@ -734,6 +735,12 @@ cursor: pointer;
         border: 1px solid black;
       
     }
+    .services .servicescontent{
+        display: block;
+        
+        margin-top: 102px;
+      
+    }
      
 }
 /* tap */
@@ -760,7 +767,7 @@ cursor: pointer;
 }
 
 /*lap  */
-@media (min-width:993px) and (max-width:1500px) {
+@media (min-width:800px)  {
     .our-navbar .links{
         display: block;
     }
