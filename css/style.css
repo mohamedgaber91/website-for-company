@@ -744,7 +744,7 @@ cursor: pointer;
      
 }
 /* tap */
-@media (min-width:501px) and (max-width:992px) {
+@media (min-width:501px) and (max-width:1500px) {
     
     .our-navbar{
         grid-template-columns: 60% 30%;
